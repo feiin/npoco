@@ -1,0 +1,22 @@
+{
+  "name": "npoco",
+  "version": "0.1.0",
+  "description": ".net PetaPoco node.js command tools instead of t4 template",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feiin/npoco.git"
+  },
+  "keywords": [
+    "petapoco"
+  ],
+  "author": "feiin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feiin/npoco/issues"
+  },
+  "homepage": "https://github.com/feiin/npoco"
+}
