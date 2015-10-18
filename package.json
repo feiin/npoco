@@ -18,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/feiin/npoco/issues"
   },
-  "homepage": "https://github.com/feiin/npoco"
+  "preferGlobal": true,
+  "bin": {
+    "npoco": "index.js"
+  },
+  "homepage": "https://github.com/feiin/npoco",
+  "dependencies": {
+    "async": "^1.4.2",
+    "ejs": "^2.3.4",
+    "inflection": "^1.7.2",
+    "lodash": "^3.10.1",
+    "mysql": "^2.9.0",
+    "orm": "^2.1.27"
+  }
 }
