@@ -2,9 +2,9 @@
 
 var npoco = require("./lib/npoco.js");
 var cli = require('commander');
-
 var pjson = require("./package.json");
-
+var inquirer = require("inquirer");
+var questions = require("./questions");
 
 
 cli.version(pjson.version)
@@ -17,6 +17,10 @@ cli.command('init')
     .action(function(options){
 
         console.log("init options..",options.path)
+
+        inquirer.prompt(questions, function( answers ) {
+            console.log( JSON.stringify(answers, null, "  "));
+        });
 
     }).on("--help",function(){
 
@@ -51,4 +55,11 @@ cli.command('gen')
 
 cli.parse(process.argv);
 
-npoco.renderCode({"schemaName":"dollor"});
+if (cli.args.length==0) {
+
+    cli.help();
+}
+
+
+
+//npoco.renderCode({"schemaName":"dollor"});
