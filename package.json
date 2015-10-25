@@ -1,7 +1,7 @@
 {
   "name": "npoco",
   "version": "0.1.0",
-  "description": ".net PetaPoco node.js command tools instead of t4 template",
+  "description": "npoco is a node.js command tools to generate petapoco(micro-ORM) classes for .NET and Mono",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -25,8 +25,10 @@
   "homepage": "https://github.com/feiin/npoco",
   "dependencies": {
     "async": "^1.4.2",
+    "commander": "^2.9.0",
     "ejs": "^2.3.4",
     "inflection": "^1.7.2",
+    "inquirer": "^0.11.0",
     "lodash": "^3.10.1",
     "mysql": "^2.9.0",
     "orm": "^2.1.27"
