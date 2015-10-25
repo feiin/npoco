@@ -7,17 +7,6 @@ var questions = [
         default:"localhost"
     },
     {
-        type:"password",
-        name:"database.password",
-        message:"please input you mysql root password:"
-    },
-    {
-        type:"input",
-        name:"connectionStringName",
-        message:"web.config/app.config connectionstring name: ",
-        default:"PetaPocoDb"
-    },
-    {
         type:"input",
         name:"schemaName",
         message:"your db schema name: ",
@@ -28,6 +17,18 @@ var questions = [
             return true;
         }
     },
+    {
+        type:"input",
+        name:"database.password",
+        message:"please input you mysql root password:"
+    },
+    {
+        type:"input",
+        name:"connectionStringName",
+        message:"web.config/app.config connectionstring name: ",
+        default:"PetaPocoDb"
+    },
+
     {
         type:"input",
         name:"repoName",
@@ -79,6 +80,12 @@ var questions = [
         name:"generateOperations",
         message:"generate options: should generate operations? :",
         default:true
+    }
+    ,{
+        type:"input",
+        name:"generateFileName",
+        message:"generate options: generate code file name  :",
+        default:"Database.cs"
     }
 ];
 
