@@ -82,6 +82,12 @@ var questions = [
         default:true
     }
     ,{
+        type:"confirm",
+        name:"generate3TierArchitecture",
+        message:"generate options: should generate 3-Tier architecture code(with DAL,BLL)? :",
+        default:false
+    }
+    ,{
         type:"input",
         name:"generateFileName",
         message:"generate options: generate code file name  :",
