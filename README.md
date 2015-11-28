@@ -34,6 +34,9 @@ See here - https://github.com/toptensoftware/PetaPoco - for PetaPoco details.
 	npoco gen
 	
 
+
+exmaple:https://github.com/feiin/npocoexample
+
 ###help
 
 
