@@ -18,6 +18,7 @@ See here - https://github.com/toptensoftware/PetaPoco - for PetaPoco details.
 - Mysql 
 
 
+
 ##usage
 
 1.install  npoco
@@ -37,6 +38,8 @@ See here - https://github.com/toptensoftware/PetaPoco - for PetaPoco details.
 
 exmaple:https://github.com/feiin/npocoexample
 
+
+
 ###help
 
 
@@ -44,6 +47,15 @@ exmaple:https://github.com/feiin/npocoexample
    - npoco -help
    - npoco init -h
    - npoco gen -h
+
+##options 
+
+###generate3TierArchitecture 
+Type:`Boolean`
+
+generate 3-tier architecture code. Default:`false`.
+
+
   
   
 ##In .Net/Mono Project
