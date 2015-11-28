@@ -18,7 +18,7 @@ cli.command('init')
     .description(" init a npoco.json file for npoco")
     .action(function(options){
 
-        console.log("init options..",options.path)
+        //console.log("init options..",options.path)
 
         inquirer.prompt(questions, function( answers ) {
             var config = answers;
