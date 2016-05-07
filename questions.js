@@ -19,6 +19,12 @@ var questions = [
     },
     {
         type:"input",
+        name:"tablePrefix",
+        message:"table prefix should be remove for className: ",
+        default:""
+    },
+    {
+        type:"input",
         name:"database.password",
         message:"please input you mysql root password:"
     },
