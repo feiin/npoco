@@ -92,6 +92,14 @@ var questions = [
         name:"generate3TierArchitecture",
         message:"generate options: should generate 3-Tier architecture code(with DAL,BLL)? :",
         default:false
+    },{
+        type: "confirm",
+        name: "generateModelWithSingleFile",
+        message: "generate poco classes with single file?",
+        default: true,
+        when: function(anwsers) {
+            return anwsers.generate3TierArchitecture;
+        }
     }
     ,{
         type:"input",
