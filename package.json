@@ -1,6 +1,6 @@
 {
   "name": "npoco",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "npoco is a node.js command tools to generate petapoco(micro-ORM) classes for .NET and Mono",
   "main": "index.js",
   "scripts": {
